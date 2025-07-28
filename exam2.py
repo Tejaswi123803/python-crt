@@ -16,7 +16,7 @@ def difference_of_sum(n, m):
     sum_div = sum(x for x in nums if x % n == 0)
     sum_not_div = sum(x for x in nums if x % n != 0)
     return sum_not_div - sum_div
-
+    
 n = int(input())
 m = int(input())
 
